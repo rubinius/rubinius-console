@@ -19,6 +19,6 @@ commands to inspect a running system typical of a debugger.}
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake", "~> 10.3"
+  spec.add_development_dependency "rake", ">= 12.3.3"
   spec.add_dependency "redcard", "~> 1.1"
 end
